@@ -10,6 +10,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  // Description : Hmm... Hình như là cái này
   int val = analogRead(A0);
   if (!val) {
     FOR(i,11,14) dw(i,0);
