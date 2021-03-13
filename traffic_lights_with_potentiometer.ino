@@ -17,7 +17,7 @@ void loop() {
   else if (val < 341) {
     dw(11,1); dw(12,0); dw(13,0); 
   }
-  else if ( val < 682) {
+  else if (val < 682) {
     dw(11,0); dw(12,1); dw(13,0);
   }
   else if (val < 1023) {
