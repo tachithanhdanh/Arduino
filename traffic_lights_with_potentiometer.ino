@@ -11,6 +11,8 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   // Description : Hmm... Hình như là cái này https://github.com/tachithanhdanh/Arduino/blob/main/Images/20210313_100930.jpg
+  // Sơ đồ mạch : https://github.com/tachithanhdanh/Arduino/blob/main/Images/20210313_100118.jpg
+  // And this : https://github.com/tachithanhdanh/Arduino/blob/main/Images/20210313_100146.jpg
   int val = analogRead(A0);
   if (!val) {
     FOR(i,11,14) dw(i,0);
